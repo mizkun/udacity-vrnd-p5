@@ -1,18 +1,24 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnterWarp : MonoBehaviour {
 
+	public string gateName;
 	public string nextScene;
 	public bool flg = false;
-
+	
 	public GameObject Warp;
+	public Text[] gateNameTexts;
 
 	private Animator warp_animator;
 
 	void Start () {
 		warp_animator = Warp.GetComponent<Animator> ();
+		foreach (Text gateNameText in gateNameTexts) {
+			gateNameText.text = gateName;
+		}
 	}
 	
 	void Update () {
