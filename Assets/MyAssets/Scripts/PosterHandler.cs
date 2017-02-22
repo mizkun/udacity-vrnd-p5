@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class PosterHandler : MonoBehaviour {
+public class PosterHandler : MonoBehaviour{
 
 	public Text title;
 	public Text description;
@@ -20,9 +20,4 @@ public class PosterHandler : MonoBehaviour {
 		Texture2D texture = Resources.Load("Images/PosterImages/" + image_name) as Texture2D;
 		image.sprite = Sprite.Create(texture, new Rect(0, 0, texture.width, texture.height), Vector2.zero);
 	}
-}
-
-[Serializable]
-public class PosterHandlers {
-	public List<PosterHandler> list;
 }
