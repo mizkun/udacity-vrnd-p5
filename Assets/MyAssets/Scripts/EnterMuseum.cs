@@ -1,11 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement; 
 
-public class Move2Museum : MonoBehaviour {
+public class EnterMuseum : MonoBehaviour {
 
+	public static int museum_id;
+	
 	public GameObject character;
 	public float velocity = 30.0f;
+	public int this_museum_id;
+
 	bool inCore;
 
 	void Start () {
@@ -24,10 +29,16 @@ public class Move2Museum : MonoBehaviour {
 	void OnTriggerEnter(Collider collider) {
 		Debug.Log ("EnterCore");
 		inCore = true;
+		museum_id = this_museum_id;
 	}
 
 	void OnTriggerExit(Collider collider) {
 		Debug.Log ("ExitCore");
 		inCore = false;
+		SceneManager.LoadScene ("Museum");
+	}
+
+	public static int getMuseumId () {
+		return museum_id;
 	}
 }

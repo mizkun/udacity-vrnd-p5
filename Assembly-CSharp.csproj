@@ -151,11 +151,11 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Clicker.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\EnterMuseum.cs" />
      <Compile Include="Assets\MyAssets\Scripts\EnterWarp.cs" />
      <Compile Include="Assets\MyAssets\Scripts\HeadLookUpDown.cs" />
      <Compile Include="Assets\MyAssets\Scripts\HeadLookWalk.cs" />
      <Compile Include="Assets\MyAssets\Scripts\JsonHelper.cs" />
-     <Compile Include="Assets\MyAssets\Scripts\Move2Museum.cs" />
      <Compile Include="Assets\MyAssets\Scripts\ParticleSystemMultiplier.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Poster.cs" />
      <Compile Include="Assets\MyAssets\Scripts\PosterCreator.cs" />
