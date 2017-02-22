@@ -1,11 +1,15 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MyAssets/Scripts/EnterWarp.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MyAssets/Scripts/PosterCreator.cs">
     <Files>
-      <File FileName="Assets/MyAssets/Scripts/HeadLookWalk.cs" Line="23" Column="3" />
-      <File FileName="Assets/MyAssets/Scripts/EnterWarp.cs" Line="18" Column="1" />
+      <File FileName="Assets/MyAssets/Scripts/EnterWarp.cs" Line="20" Column="3" />
+      <File FileName="Assets/MyAssets/Scripts/HeadLookWalk.cs" Line="21" Column="6" />
       <File FileName="Assets/MyAssets/Scripts/ParticleSystemMultiplier.cs" Line="1" Column="1" />
       <File FileName="Assets/MyAssets/Scripts/Clicker.cs" Line="1" Column="1" />
+      <File FileName="Assets/MyAssets/Scripts/HeadLookUpDown.cs" Line="18" Column="1" />
+      <File FileName="Assets/MyAssets/Scripts/PosterCreator.cs" Line="18" Column="1" />
+      <File FileName="Assets/MyAssets/Scripts/PosterHandler.cs" Line="17" Column="1" />
+      <File FileName="Assets/MyAssets/Scripts/JsonHelper.cs" Line="20" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
