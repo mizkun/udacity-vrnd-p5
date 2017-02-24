@@ -151,6 +151,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
      <Compile Include="Assets\MyAssets\Scripts\BackToHome.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\CameraFade.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Clicker.cs" />
      <Compile Include="Assets\MyAssets\Scripts\EnterMuseum.cs" />
      <Compile Include="Assets\MyAssets\Scripts\EnterWarp.cs" />
@@ -161,6 +162,7 @@
      <Compile Include="Assets\MyAssets\Scripts\Poster.cs" />
      <Compile Include="Assets\MyAssets\Scripts\PosterCreator.cs" />
      <Compile Include="Assets\MyAssets\Scripts\PosterHandler.cs" />
+     <Compile Include="Assets\SimpleCloudSystem by RM\SceneComponents\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
@@ -170,9 +172,11 @@
      <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
+     <None Include="Assets\SimpleCloudSystem by RM\Read Me.txt" />
      <None Include="Assets\DualCorStudios\BasicUIConcrete\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
+     <None Include="Assets\SimpleCloudSystem by RM\SCS Instructions.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Daydream.xml" />
      <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoUnlitGrayscaleToColor.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrReticleShader.shader" />
