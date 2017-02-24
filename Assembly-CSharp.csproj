@@ -150,6 +150,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\BackToHome.cs" />
      <Compile Include="Assets\MyAssets\Scripts\Clicker.cs" />
      <Compile Include="Assets\MyAssets\Scripts\EnterMuseum.cs" />
      <Compile Include="Assets\MyAssets\Scripts\EnterWarp.cs" />
