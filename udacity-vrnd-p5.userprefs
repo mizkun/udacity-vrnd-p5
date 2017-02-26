@@ -1,19 +1,21 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MyAssets/Scripts/HeadLookUpDown.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MyAssets/Scripts/PosterCreator.cs">
     <Files>
-      <File FileName="Assets/MyAssets/Scripts/EnterWarp.cs" Line="7" Column="1" />
-      <File FileName="Assets/MyAssets/Scripts/HeadLookWalk.cs" Line="13" Column="28" />
+      <File FileName="Assets/MyAssets/Scripts/PosterCreator.cs" Line="8" Column="2" />
+      <File FileName="Assets/MyAssets/Scripts/EnterWarp.cs" Line="1" Column="1" />
+      <File FileName="Assets/MyAssets/Scripts/HeadLookWalk.cs" Line="1" Column="1" />
       <File FileName="Assets/MyAssets/Scripts/ParticleSystemMultiplier.cs" Line="1" Column="1" />
       <File FileName="Assets/MyAssets/Scripts/Clicker.cs" Line="1" Column="1" />
-      <File FileName="Assets/MyAssets/Scripts/HeadLookUpDown.cs" Line="25" Column="19" />
-      <File FileName="Assets/MyAssets/Scripts/PosterCreator.cs" Line="15" Column="25" />
+      <File FileName="Assets/MyAssets/Scripts/HeadLookUpDown.cs" Line="1" Column="1" />
       <File FileName="Assets/MyAssets/Scripts/PosterHandler.cs" Line="17" Column="2" />
       <File FileName="Assets/MyAssets/Scripts/JsonHelper.cs" Line="2" Column="1" />
       <File FileName="Assets/MyAssets/Scripts/Poster.cs" Line="9" Column="23" />
-      <File FileName="Assets/MyAssets/Scripts/EnterMuseum.cs" Line="38" Column="25" />
-      <File FileName="Assets/MyAssets/Scripts/BackToHome.cs" Line="43" Column="33" />
-      <File FileName="Assets/GoogleVR/Scripts/EventSystem/GvrPointerInputModule.cs" Line="137" Column="92" />
+      <File FileName="Assets/MyAssets/Scripts/EnterMuseum.cs" Line="29" Column="1" />
+      <File FileName="Assets/MyAssets/Scripts/BackToHome.cs" Line="1" Column="1" />
+      <File FileName="Assets/GoogleVR/Scripts/EventSystem/GvrPointerInputModule.cs" Line="1" Column="1" />
+      <File FileName="Assets/MyAssets/Scripts/CameraFade.cs" Line="1" Column="1" />
+      <File FileName="Assets/MyAssets/Scripts/ExitTutorial.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
