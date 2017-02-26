@@ -8,7 +8,8 @@ public class EnterWarp : MonoBehaviour {
 	public string gateName;
 	public string nextScene;
 	public bool flg = false;
-	
+	public GvrAudioSource warpSound;
+
 	public GameObject Warp;
 	public Text[] gateNameTexts;
 
@@ -36,6 +37,7 @@ public class EnterWarp : MonoBehaviour {
 
 	public void EnterEffect() {
 		warp_animator.SetTrigger ("enterTrigger");
+		warpSound.Play ();
 	}
 
 	public void ExitEffect() {

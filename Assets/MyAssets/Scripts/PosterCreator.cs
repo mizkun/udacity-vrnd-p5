@@ -12,12 +12,12 @@ public class PosterCreator : MonoBehaviour {
 	public Text museumTitle;
 	public GameObject posterObject;
 	public Image Fadein;
-	public float fadeVelocity = 0.5f;
+	public float fadeVelocity = 0.2f;
+	public GameObject FadeinCanvas;
 
 	void Awake () {
 		museum_id = EnterMuseum.getMuseumId ();
 		museum_name = EnterMuseum.getMuseumName () + " Museum";
-		Debug.Log (museum_id);
 	}
 
 	void Start () {
@@ -26,7 +26,6 @@ public class PosterCreator : MonoBehaviour {
 
 		foreach (Poster p in posters) {
 			if (p.museum_id == museum_id) {
-				Debug.Log (p.title_text);
 				CreatePoster (p.title_text, p.description_text, p.image_name);
 			}
 		}
@@ -36,6 +35,8 @@ public class PosterCreator : MonoBehaviour {
 		if (Fadein.color.a > 0.0f) {
 			Color newColor = new Color (Fadein.color.r, Fadein.color.g, Fadein.color.b, Fadein.color.a - fadeVelocity * Time.deltaTime);
 			Fadein.color = newColor;
+		} else {
+			FadeinCanvas.SetActive (false);
 		}
 	}
 

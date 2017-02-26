@@ -9,6 +9,7 @@ public class BackToHome : MonoBehaviour {
 	public Image progress;
 	public float speed;
 	public GameObject character;
+	public GvrAudioSource backSound;
 
 	private bool isEnter;
 	
@@ -30,6 +31,7 @@ public class BackToHome : MonoBehaviour {
 		Debug.Log ("Enter Back Button");
 		isEnter = true;
 		character.GetComponent<HeadLookUpDown> ().isWalking = false;
+		backSound.Play ();
 	}
 
 	public void ExitBackBButton () {
@@ -37,6 +39,7 @@ public class BackToHome : MonoBehaviour {
 		isEnter = false;
 		progress.fillAmount = 0.0f;
 		character.GetComponent<HeadLookUpDown> ().isWalking = true;
+		backSound.Stop ();
 	}
 
 	public void Back () {
